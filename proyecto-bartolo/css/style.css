@@ -1,0 +1,211 @@
+/* Estilos generales */
+ body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Estilos del header */
+.header {
+    background-color: #1e2939;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.title a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.title a:hover {
+    color: #ffc20f;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+    color: #ffc20f;
+}
+
+/* Estilos del main */
+.section {
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #1e2939;
+}
+
+/* Estilos de los elementos de menú */
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.menu-item img {
+    max-width: 100px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.menu-item h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #1e2939;
+}
+
+.menu-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+
+/* Estilos bodega*/
+.bodega-story img {
+    max-width: 42%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#bodega {
+    padding: 40px;
+    background-color: #f8f8f8;
+}
+
+.wine-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.wine-list h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.wine-list p {
+    font-size: 16px;
+    color: #888;
+}
+
+/* Estilos para títulos de sección y párrafos */
+.section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
+/*estilos nosotoros */
+
+.img-nosotros img {
+    max-width: 50%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+/* Estilos del pie de página */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-container,
+.redes-footer,
+.contacto {
+    text-align: center;
+}
+
+.logo-container ,
+.redes-footer h3,
+.contacto h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #ffc20f;
+}
+
+.logoactualizado {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logoactualizado img {
+    width: 180px;
+    height: auto;
+}
+
+.redes-footer li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.redes-footer a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.redes-footer a:hover {
+    color: #ffc20f;
+}
+
+.contacto p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.whatsapp-icon {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+
+
